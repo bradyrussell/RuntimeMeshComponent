@@ -9,6 +9,8 @@
 #include "RuntimeMeshBlueprint.h"
 #include "RuntimeMeshCollision.h"
 #include "RuntimeMeshBlueprintMeshBuilder.h"
+#include "Interfaces/Interface_CollisionDataProvider.h"
+#include "GameplayDebugger/Private/GameplayDebuggerCompat.h"
 #include "RuntimeMesh.generated.h"
 
 class UBodySetup;

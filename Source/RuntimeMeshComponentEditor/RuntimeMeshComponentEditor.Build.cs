@@ -56,7 +56,7 @@ public class RuntimeMeshComponentEditor : ModuleRules
                 "Projects",
                 "EditorStyle",
                 "InputCore",
-
+                "ToolMenus",
                 "RuntimeMeshComponent",
             }
             );

@@ -2,7 +2,6 @@
 
 #include "RuntimeMeshComponentDetails.h"
 #include "RuntimeMeshComponent.h"
-#include "DlgPickAssetPath.h"
 #include "IAssetTools.h"
 #include "AssetToolsModule.h"
 #include "AssetRegistryModule.h"
@@ -12,9 +11,12 @@
 #include "DetailCategoryBuilder.h"
 #include "DetailWidgetRow.h"
 #include "RawMesh.h"
-
-#include "Input/SCheckBox.h"
-#include "Input/SComboBox.h"
+#include "Dialogs/DlgPickAssetPath.h"
+#include "Widgets/Input/SButton.h"
+#include "Widgets/Input/SCheckBox.h"
+#include "Widgets/Input/SComboBox.h"
+#include "Widgets/Text/STextBlock.h"
+#include "Engine/StaticMesh.h"
 
 #define LOCTEXT_NAMESPACE "RuntimeMeshComponentDetails"
 
